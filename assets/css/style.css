@@ -159,12 +159,12 @@ input[type=text] {
 
 .centered {
     position: absolute;
-    bottom: 0px;
+    bottom: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 15px;
     background-color: var(--maincolor);
-    width: 200px;
+    width: 100%;
     box-sizing: border-box;
     color: white;
 }
@@ -247,5 +247,22 @@ input[type=text] {
     }
     .maincontents {
         margin: 260px 10px 85px 10px;
+    }
+
+    #headshot {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .portfolioimage {
+        border-radius: 25px;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 90%;
+        box-sizing: border-box;
     }
 }
